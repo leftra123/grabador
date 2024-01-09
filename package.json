@@ -1,0 +1,19 @@
+{
+  "name": "grabadora-de-pantalla",
+  "version": "1.0.0",
+  "description": "Una aplicación simple para grabar la pantalla con audio",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o compiled.css",
+    "watch": "postcss styles.css -o compiled.css -w"
+  },
+  "author": "Tallarines",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0"
+  },
+  "browserslist": "defaults",
+  "keywords": []
+}
